@@ -8,20 +8,7 @@ class TodoContextProvider extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            todos: [{
-                task: 'do something'
-            },{
-                task: 'do something'
-            },{
-                task: 'do something'
-            },{
-                task: 'do something'
-            },{
-                task: 'do something'
-            },{
-                task: 'do something'
-            },
-        ],
+            todos: [],
         };
     }
 
